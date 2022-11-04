@@ -321,12 +321,16 @@ body {
    white-space: nowrap;
 }
 .map {
+   display: block;
    flex: 1 1 60%;
    align-items: stretch;
    padding: 10px 0;
    height: 32.03vw;
    min-height: 350px;
    max-height: 595px;
+   width: 100%;
+   border: none;
+border-radius: 25px;
 }
 .footer {
    background-color: #ffffff;
